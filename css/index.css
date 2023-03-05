@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+html, body, h1, h2, h3, h4, h5, h6, form, input, header, main, footer, p{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/0.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    transition: .2s ease-in-out;
+}
+
+.hidden{
+    display: none;
+}
+
+#header{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background: rgba(173, 216, 230, 0.411);
+}
+.inputBx{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 50px;
+    font-size: 35px;
+    border: 4px double darkblue;
+    box-sizing: border-box;
+}
+.inputBtn{
+    position: absolute;
+    left:480px;
+    top: 30px;
+    height: 50px;
+    width: 70px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.username{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 70px;
+    font-family: 'Tilt Neon';
+    color: rgb(1, 1, 110);
+}
+
+#main{
+    position: relative;
+}
+.clockbx{
+    position: relative;
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.clockbx h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 100px;
+    color: #fff;
+    font-family: "Tilt Neon";
+    text-shadow: 2px 2px 2px #000;
+}
+.todo_wrap{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 800px;
+    background-color: #ffffff50;
+}
+.input_todo{
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+}
+#todo_list li{
+    font-size: 50px;
+    color: #ddd;
+    text-shadow: 1px 1px 1px #000;
+}
+#todo_list li button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    vertical-align: 5px;
+}
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #03a3ff36;
+}
+.weather_wrap{
+    position: absolute;
+    width: 1200px;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Tilt Neon';
+    text-align: center;
+    color: #ffffff;
+}
+.weather{
+    font-size: 30px;
+}
+.city{
+    font-size: 25px;
+}
+.info{
+    text-align: center;
+}
+.info p{
+    color: #ccc;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 10px 0;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/login.js"></script>
+    <script src="./js/bgdata.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>My Page</title>
+</head>
+<body>
+    <div class="my_page">
+        <header id="header">
+            <form id="login_form" class="hidden">
+                <input type="text" placeholder="Write your name." class="inputBx">
+                <input type="submit" value="Log In" class="inputBtn">
+            </form>
+            <h1 id="greeting" class="username hidden"></h1>
+        </header>
+        <main id="main">
+            <div class="clockbx"></div>
+            <div class="todo_wrap">
+                <form id="todo_form">
+                    <input type="text" class="input_todo" placeholder="Write a Todo and Press Enter">
+                </form>
+                <ul id="todo_list">
+                </ul>
+            </div>
+            <div class="weather_wrap">
+                <span class="weather"></span><br>
+                <span class="city"></span>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="info">
+                <p>
+                    2023.03.05 - Oskar <br>
+                    NomadCoder Challenge
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
